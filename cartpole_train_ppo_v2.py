@@ -1,10 +1,11 @@
+# Initial framework taken from https://github.com/OctThe16th/PPO-Keras/blob/master/Main.py
+
 import numpy as np
 import gym
 from keras.models import Model
 from keras.layers import Input, Dense
 from keras import backend as K
 from keras.optimizers import Adam
-from keras.callbacks import TensorBoard
 import tensorflow as tf
 import random
 from tensorboardX import SummaryWriter
